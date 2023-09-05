@@ -10,11 +10,11 @@ import psycopg2
 
 # Configurações do banco de dados PostgreSQL
 db_settings = {
-    'db_user': 'postgres',
-    'db_password': 'um',
+    'db_user': 'postgres', #user
+    'db_password': '', #senha
     'db_host': 'localhost',  # Ou o endereço do seu servidor PostgreSQL
     'db_port': '5432',  # Porta padrão do PostgreSQL
-    'db_name': 'bd_comercioSJP'
+    'db_name': 'bd_comercioSJP' #nome do banco
 }
 
 # Configurando as opções do Chrome
